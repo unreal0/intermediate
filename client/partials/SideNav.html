@@ -1,0 +1,15 @@
+<template name="SideNav">
+    <nav class="side-nav">
+        <ul>
+            <li>
+                <a href="/recipes-book"><i class="fa fa-list"></i>食谱</a>
+            </li>
+            <li>
+                <a href="/menu"><i class="fa fa-map-o"></i><span>{{#if count != 0}}{{count}}{{/if}}</span>菜单</a>
+            </li>
+            <li>
+                <a href="/shopping-list"><i class="fa fa-shopping-cart"></i>采购清单</a>
+            </li>
+        </ul>
+    </nav>
+</template>
