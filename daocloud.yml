@@ -1,0 +1,38 @@
+version: 2.0
+
+test:
+    image:
+        meteorhacks/meteord
+
+    services:
+        - mongo
+
+    # using default docker-link env
+    env:
+        - MONGO_URL=mongodb://mongo/intermediate
+        
+
+    install:
+        - 
+
+    before_script:
+        - 
+        - 
+
+    script:
+
+
+build:
+    lite_image:
+        compile:
+            dockerfile_path: Dockerfile
+            build_dir: /
+            cache: true
+
+        extract:
+            - 
+
+        package:
+              dockerfile_path: Dockerfile.sec
+              build_dir: /
+              cache: true
