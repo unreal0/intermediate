@@ -9,11 +9,10 @@ test:
 
     # using default docker-link env
     env:
-        #- MONGO_URL=mongodb://mongo/intermediate
         - MONGO_URL = mongodb://u7DZw3XibjLz94JG:p4OmQKFSBxsy2NuU8@10.10.72.139:27017/JOQGwA8XdrNuzmKU
-        - ROOT_URL = http://unreal-cooks.daoapp.io
+        - ROOT_URL = http://unreal-cooks1.daoapp.io
     install:
-        - meteor
+        - 
 
     before_script:
         - 
