@@ -2,7 +2,7 @@
   "name": "intermediate",
   "private": true,
   "scripts": {
-    "start": "MONGO_URL=mongodb://u7DZw3XibjLz94JG:p4OmQKFSBxsy2NuU8@10.10.72.139:27017/JOQGwA8XdrNuzmKU meteor run"
+    "start": "meteor update && meteor reset && meteor run"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",
