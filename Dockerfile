@@ -1,6 +1,6 @@
 
-#FROM zhaoyao91/meteord:onbuild
-FROM meteorhacks/meteord:onbuild
+FROM ulexus/meteor:onbuild
+#FROM meteorhacks/meteord:onbuild
 
 
 
