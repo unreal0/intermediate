@@ -1,10 +1,10 @@
 
-FROM ulexus/meteor:onbuild
+#FROM ulexus/meteor:onbuild
 #FROM meteorhacks/meteord:onbuild
 
 
 
-#FROM zhaoyao91/meteord:onbuild
+FROM abernix/meteord:onbuild
 #FROM meteorhacks/meteord:onbuild
 
 #FROM meteorhacks/meteord:onbuild
